@@ -45,7 +45,7 @@ void GPSKF::filterCalculation(double lat_old, double lng_old, double lat_cur, do
 		vN = (aN)*(_dt) + vNold;
 		Ndist = (vN - vNold)*(_dt) + NdistOld;
 		
-		aE = acceleration*cos(angle);
+		aE = acceleration*sin(bear);
 		vE = (aE)*(_dt) + vEold;
 		Edist = (vE - vEold)*(_dt) + EdistOld;
 
