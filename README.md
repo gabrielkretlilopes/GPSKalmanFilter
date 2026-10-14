@@ -6,6 +6,8 @@ In order to make it work define the matrices x_N, x_E, P_N, P_E. These are the p
 
 You can then, call the filterCalculation function and pass the values to the filter.  Previous Latitude, Previous Longitude, Current Latitude, Current Longitude, Velocity, acceleration, heading angle, a pointer to the place storing the latitude and longitude calculated by the filter.
 
+![alt text](https://github.com/gabriellopes007/GPSKalmanFilter/blob/main/gpskalmanfilter_fluxo_geral.png)
+
 Remember this library doesn't implement the best code practices but it works just fine.
 
 Gabriel Lopes!
